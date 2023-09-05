@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+.login-bg {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(20, 12, 12, 1) 87%
+  );
+}
+.sidebar-icon {
+  width: 20px;
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.765);
+}
+.sb-admin-icon {
+  width: 30px;
+  height: 30px;
+}
+.user-account-icon {
+  margin-right: 8px;
+}
+.sidebar-color {
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+}
+.right-arrow {
+  margin-left: 10px;
+  color: rgba(0, 255, 255, 0.781);
+}
+@media screen and (min-width: 320px) and (max-width: 728px) {
+  .right-arrow {
+    display: none;
+  }
+}
+.bg-color {
+  background-color: rgba(118, 114, 114, 0.121);
+}
